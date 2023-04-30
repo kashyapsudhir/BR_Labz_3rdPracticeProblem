@@ -8,8 +8,14 @@ namespace SnakeLaderProblem
         {
             Console.WriteLine("Welcome to Snake Lader Problem");
             
-           Play play = new Play();
-            play.PlaySnakeAndLadder();
+           //Play play = new Play();
+           // play.PlaySnakeAndLadder();
+
+            Play play = new Play();
+            PlayerRollTheDie playerRollTheDie = new PlayerRollTheDie();
+
+            int roll = playerRollTheDie.RollDie();
+            play.PlaySnakeAndLadder(roll);
         }
     }
 }
