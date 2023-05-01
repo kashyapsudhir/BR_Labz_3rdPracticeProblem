@@ -7,10 +7,7 @@ namespace SnakeLaderProblem
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Snake Lader Problem");
-            
-           //Play play = new Play();
-           // play.PlaySnakeAndLadder();
-
+           
             Play play = new Play();
             PlayerRollTheDie playerRollTheDie = new PlayerRollTheDie();
 
